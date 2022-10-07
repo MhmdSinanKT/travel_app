@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-07-20 11:05:53.206825",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "age",
+  "gender",
+  "contact_no",
+  "email",
+  "seat_column",
+  "seat_row"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
+  },
+  {
+   "default": "Select",
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Select\nMale\nFemale\nOther"
+  },
+  {
+   "fieldname": "contact_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Contact no.",
+   "options": "Phone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "seat_column",
+   "fieldtype": "Select",
+   "label": "Seat Column",
+   "options": "Select\nC1\nC2\nC3\nC4",
+   "reqd": 1
+  },
+  {
+   "fieldname": "seat_row",
+   "fieldtype": "Select",
+   "label": "Seat Row",
+   "options": "Select\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-07-25 10:50:54.585172",
+ "modified_by": "Administrator",
+ "module": "Travel App",
+ "name": "Passenger Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

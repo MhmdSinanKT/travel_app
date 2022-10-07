@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-07-19 17:16:51.265715",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "booking_costs",
+  "advance_for_private_vehicle"
+ ],
+ "fields": [
+  {
+   "fieldname": "booking_costs",
+   "fieldtype": "Table",
+   "label": "Booking Costs",
+   "options": "Cost Table"
+  },
+  {
+   "fieldname": "advance_for_private_vehicle",
+   "fieldtype": "Data",
+   "label": "Advance for Private Vehicle"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-07-20 13:24:41.730045",
+ "modified_by": "Administrator",
+ "module": "Travel App",
+ "name": "Travel App Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
